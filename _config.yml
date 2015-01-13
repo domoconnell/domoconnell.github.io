@@ -11,7 +11,7 @@ color:
   
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Dom O'Connell
   location: Location
   social: Around the Web
   credits: Credits
@@ -25,7 +25,7 @@ social:
 
   
 # Credits content
-credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
+credits: 'Hosted On Github, powered by Jekyll, written by me.'
 
 # Build settings
 markdown: kramdown
