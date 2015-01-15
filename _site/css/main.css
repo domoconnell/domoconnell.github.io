@@ -147,12 +147,17 @@ a:hover {
   line-height: 40px;
   text-transform: uppercase;
 }
+.comments{
+  height: 600px;
+  max-width: 725px;
+}
 
 .post {
   line-height: 24px;
   max-width: 725px;
   clear: both;
 }
+
 
 .post h2 {
   margin-top: 1.25em;
