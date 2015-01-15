@@ -1,7 +1,10 @@
 name: Dom O'Connell
 
 email: dom.oconnell@me.com
-description: "Dom O'Connell"
+description: "Portfolio - Musings"
+
+twitter: "domoconnell"
+github: "domoconnell"
 
 markdown: redcarpet
 highlighter: true

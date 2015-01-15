@@ -23,11 +23,14 @@
     <div class="site">
       <div class="sidebar" id="sidebar">
         <div class="header">
-          <h1 class="title"><a href="/"><img id="logo" src="/images/logo.png"></a></h1>
+          <h1 class="title"><a href="/"><img id="logo" src="/images/dom_logo.png"></a></h1>
           <span class="tagline">{{ site.description }}</span>
         </div>
         <div class="posts">
           <ul class="posts-list">
+              <li class="post-link">
+                <a class="post-title" href="/">The Main Bit</a>
+              </li>
               <li class="post-link">
                 <a class="post-title" href="/about">About</a>
               </li>
@@ -57,9 +60,8 @@
         </div>
         <div class="footer">
           <span id="footer-links">
-            <a href="" class="footer-link">About</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
-            <a href="" class="footer-link">GitHub</a>
+            <a href="http://twitter.com/{{ site.twitter }}" class="footer-link" target="_blank">Twitter</a> <span class="separator">&bull;</span>
+            <a href="http://github.com/{{ site.github }}" class="footer-link" target="_blank">GitHub</a>
           </span>
         </div>
       </div>
