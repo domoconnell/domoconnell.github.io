@@ -8,6 +8,6 @@ livein: "Newark, Nottinghamshire, England"
 twitter: "domoconnell"
 github: "domoconnell"
 
-markdown: maruku
+markdown: kramdown
 highlighter: true
 
