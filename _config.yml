@@ -3,10 +3,11 @@ name: Dom O'Connell
 email: dom.oconnell@me.com
 description: "Portfolio - Musings"
 
+livein: "Newark, Nottinghamshire, England"
+
 twitter: "domoconnell"
 github: "domoconnell"
 
 markdown: redcarpet
 highlighter: true
-
 
