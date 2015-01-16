@@ -7,7 +7,7 @@ permalink: /
 
 ##So, here we are...
 
-You have stumbled upon the personal portfolio and record of musings of Dom O'Connell. If you have arrived here by accident, apologies, why don't you have a quick scoot around anyway. You never know, you might like what you read - maybe.
+You have stumbled upon the personal portfolio and record of musings of Dom O'Connell. If you have arrived here by accident, apologies, why don't you have a quick scoot around anyway. You never know, you might like what you read.
 
 
 ##What?
