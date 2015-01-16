@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Church App
-date:   2015-01-03 13:08:00
+date:   2015-01-04 13:08:00
 categories: portfolio
 image: church-app.jpg
 short_name: Church App

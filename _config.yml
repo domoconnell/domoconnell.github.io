@@ -10,5 +10,3 @@ github: "domoconnell"
 
 markdown: kramdown
 highlighter: true
-
-gems: ['jekyll-lunr-js-search']

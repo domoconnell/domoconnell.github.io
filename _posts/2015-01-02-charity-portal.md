@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Charity Portal
-date:   2015-01-06 13:08:00
+date: 2015-01-02 13:08:00
 categories: portfolio
 image: charity-portal.jpg
 short_name: Charity Portal
-description: custom built questionnaire system for a charity to collect info and make graphs
+description: a questionnaire system for a charity. Asks questions, makes graphs.
 ---
 
 ## Why?
