@@ -121,6 +121,7 @@
 	top: 20%;
 	margin: 10px;
 	position: absolute;
+	font-size: 12pt;
 }
 .square-box:hover .portfolio-item-about{
 	bottom: 0px;
