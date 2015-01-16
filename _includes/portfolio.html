@@ -9,25 +9,31 @@
   </div>
 
   <div class="portfolio-list-container">
-    {% for post in posts %}
-    	<div class="portfolio-item-outer">
-			<div class='square-box'>
-				<div class='square-content'>
-					<div class="portfolio-table">
-						<div class="portfolio-item-image" style="background-image:url('/images/posts/{{post.image}}')">
-							<div class="portfolio-item-about">
-								<div class="portfolio-item-title">
-									<div class="portfolio-item-title-table">
-										<div class="portfolio-item-title-table-cell">{{post.short_name}}</div>
+  	<div>
+  		{{ portfolio_intro }}
+  	</div>
+  	<hr style="margin:15px;">
+    {% for post in posts reversed %}
+	    <a class="portfolio-link" href="{{ post.url }}">
+	    	<div class="portfolio-item-outer">
+				<div class='square-box'>
+					<div class='square-content'>
+						<div class="portfolio-table">
+							<div class="portfolio-item-image" style="background-image:url('/images/posts/{{post.image}}')">
+								<div class="portfolio-item-about">
+									<div class="portfolio-item-title">
+										<div class="portfolio-item-title-table">
+											<div class="portfolio-item-title-table-cell">{{post.short_name}}</div>
+										</div>
 									</div>
+									<idv class="portfolio-item-desc">{{post.description}}</idv>
 								</div>
-								<idv class="portfolio-item-desc">{{post.description}}</idv>
 							</div>
 						</div>
 					</div>
 				</div>
-			</div>
-    	</div>
+	    	</div>
+	    </a>
     {% endfor %}
     <div style="clear:both"></div>
   </div>
