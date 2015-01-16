@@ -46,6 +46,6 @@ It was my job to design and build complex management systems. We built several s
 The church management software grew to be quite big, so we separated out the separate parts and built several smaller systems that communicated with each other in a variety of ways.
 
 Whilst at Divine we also engaged in several other projects, including:
-- Joomla Websites
-- Magento Websites
-- Cordova Hybrid Apps
+* Joomla Websites
+* Magento Websites
+* Cordova Hybrid Apps
