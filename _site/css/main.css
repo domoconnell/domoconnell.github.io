@@ -148,7 +148,9 @@ a:hover {
   text-transform: uppercase;
 }
 .comments{
-  height: 600px;
+  max-width: 725px;
+}
+.blog-list-container{
   max-width: 725px;
 }
 .post {
@@ -296,4 +298,42 @@ a:hover {
   margin-top: 1.25em;
   font-size: 0.95em;
   color: #777;
+}
+
+
+
+/******************
+#
+# Blog stuff
+#
+*/
+
+.blog-item{
+	margin: 20px;
+	background-color: #fff;
+	padding: 20px;
+	border: 1px solid #e7e7e7;
+}
+.blog-title{
+	font-size: 18pt;
+	height: 40px;
+	line-height: 40px;
+}
+.blog-date{
+	font-size: 14pt;
+	height: 30px;
+	line-height: 30px;
+}
+.blog-categories{
+	color: #626262;
+	font-style: italic;
+}
+.blog-sep{
+	margin: 0 -20px;
+	padding: 4px 20px;
+	width: 100%;
+	background-color: #fafbfc;
+}
+.blog-excerpt{
+	padding: 20px;
 }

@@ -90,7 +90,11 @@
     z-index: 2;
   }
   
-  .sidebar ~ .content #post-info, .sidebar ~ .content .post, .sidebar ~ .content .colophon, .sidebar ~ .content .portfolio-list-container{
+  .sidebar ~ .content #post-info,
+  .sidebar ~ .content .post, 
+  .sidebar ~ .content .colophon, 
+  .sidebar ~ .content .portfolio-list-container,
+  .sidebar ~ .content .{
 		-webkit-transition: opacity 0.2s ease-in-out;
 	    -moz-transition: opacity 0.2s ease-in-out;
 	    -o-transition: opacity 0.2s ease-in-out;
@@ -98,8 +102,13 @@
 	}
 	
 
-	.sidebar.slideIn ~ .content #post-info, .sidebar.slideIn ~ .content .post, .sidebar.slideIn ~ .content .colophon, .sidebar.slideIn ~ .content .portfolio-list-container{
-		opacity: 0;
+	
+	.sidebar.slideIn ~ .content #post-info,
+	.sidebar.slideIn ~ .content .post, 
+	.sidebar.slideIn ~ .content .colophon, 
+	.sidebar.slideIn ~ .content .portfolio-list-container,
+	.sidebar.slideIn ~ .content .blog-list-container{
+  		opacity: 0;
 	}
 	.sidebar.slideIn ~ .content{
 		width: 91px;

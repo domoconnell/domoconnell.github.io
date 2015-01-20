@@ -1,0 +1,32 @@
+<div class="content" id="home">
+  <div id="sidebar-button">
+    <img src="/images/sidebar-button.png">
+  </div>
+  <div id="post-info">
+    <div id="info-container">
+      <h1 id="title">{{ page.title }}</h1>
+    </div>
+  </div>
+
+  <div class="blog-list-container">
+	{% for post in site.posts  %}
+		<div class="blog-item">
+			<a href="{{ post.url }}">
+				<div class="blog-title">
+					{{ post.title }}
+				</div>
+			</a>
+			<div class="blog-date">
+				{{ page.date | date_to_string }}
+			</div>
+			<div class="blog-sep">
+				<b>Categories:</b> {{ post.categories | join: ', ' }}
+			</div>
+			<div class="blog-excerpt">
+				{{ post.excerpt | strip_html}}
+			</div>
+		</div>
+	{% endfor %}
+    <div style="clear:both"></div>
+  </div>
+</div>
