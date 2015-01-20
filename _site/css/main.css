@@ -337,3 +337,12 @@ a:hover {
 .blog-excerpt{
 	padding: 20px;
 }
+
+
+.pagination-container{
+	text-align: center;
+	padding: 20px 0;
+}
+.pagination a, .pagination span{
+	padding: 0 2px;
+}

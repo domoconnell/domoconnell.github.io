@@ -9,7 +9,7 @@
   </div>
 
   <div class="blog-list-container">
-	{% for post in site.posts  %}
+	{% for post in paginator.posts %}
 		<div class="blog-item">
 			<a href="{{ post.url }}">
 				<div class="blog-title">
@@ -28,5 +28,8 @@
 		</div>
 	{% endfor %}
     <div style="clear:both"></div>
+    
+
+
   </div>
 </div>

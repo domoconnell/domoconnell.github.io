@@ -11,6 +11,6 @@ github: "domoconnell"
 markdown: kramdown
 highlighter: true
 
-paginate: 5
+paginate: 10
 
 paginate_path: "blog/page:num/"
