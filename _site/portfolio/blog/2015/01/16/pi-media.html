@@ -53,7 +53,7 @@
           <ul class="posts-list">
             
               <li class="post-link">
-                <a class="post-title" href="/portfolio/blog/2015/01/16/pi-media%20copy.html">
+                <a class="post-title" href="/portfolio/blog/2015/01/16/pi-media.html">
                   <span class="post-date">16 Jan 2015</span>
                   Pi Media
                 </a>
@@ -99,7 +99,40 @@
   </div>
 
   <div class="post">
-    <h2 id="why">Why?</h2>
+    <p>Everyday Champions Centre/Church needed a solution to play slideshows/music/video on screens around the building. The media needed to change at various points during the day, and on different days.</p>
+
+<p>We have 3 main “profiles” that we need to cater for in the building:</p>
+
+<ul>
+  <li>Conference media for during the week</li>
+  <li>Church media for Sundays</li>
+  <li>Media for the youth club on a Friday evening</li>
+</ul>
+
+<p>We initially tried using an Apple TV, but we found it to be fairly faffy because we had to store images on Flickr or a computer, and have different albums and playlists for the the different profiles. That meant that we had to have a computer on all the time with iTunes open, and manually navigate to the slideshow. It soon became incredibly apparent that this was not a decent solutions</p>
+
+<h1 id="cue-the-pi">Cue the pi…</h1>
+
+<p>I decided that we needed to build something that was more suitable to what we needed. After a quick search around the internets for a similar project, nothing came up that looked like it was going to be any good, so we decided to build one.</p>
+
+<p>We laid out the following criteria:</p>
+
+<ul>
+  <li>Automatic scheduled profile changing</li>
+  <li>Ability for centre staff to add/remove images/videos</li>
+  <li>Play music from Spotify playlists</li>
+  <li>Easily add new profiles and edit the play schedule</li>
+</ul>
+
+<p>The first prototype for the player achieved the specification. </p>
+
+<p>We built the system largely in PHP, using Mopidy for integration with Spotify, omxplayer for video playing and fbi for image stills. The actual media player was not physically accessible, so control for the system was over HTTP.</p>
+
+<p>But lo and behold if Spotify didn’t change their API, screwing up the playlist playback.</p>
+
+<p>We are currently in the process of building a new version of this system, more up to date, with a better UI.</p>
+
+<p>Updates will be made accordingly.</p>
 
   </div>
   <div class="colophon">
