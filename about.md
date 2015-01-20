@@ -16,6 +16,8 @@ I have been happily married to my wife, Samantha, since I was 21. I love my fami
 ###Interests & Hobbies
 I often spend my recreational time writing code and building projects. I love learning new skills relevant to my work. I find it incredibly satisfactory to learn how to do something new, so that's what I spend my time doing.
 
+I'm also a "tech geek". Enjoy live production; lighting, sound, video etc. I volunteer on the production team at church, mostly doing lighting.
+
 Other than that I enjoy films, and socialising - not that that's particularly unique to me of course.
 
 I'd like to be a "gamer" - but I find it too boring.
