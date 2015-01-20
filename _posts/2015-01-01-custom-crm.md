@@ -8,4 +8,6 @@ short_name: Custom CRM
 description: a small custom built CRM for a company
 ---
 
-## Why?
+A custom built CRM for a company that needed a few unique features.
+{{ except }}
+More on this later...

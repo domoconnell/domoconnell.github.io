@@ -8,4 +8,7 @@ short_name: App Builder
 description: we needed a way to quickly and easily build the same phone apps multiple times
 ---
 
-## Why?
+We needed a way to save our selves hours of time in app development. Although the app itself was built to be reproduced, there was a lot of work to do in getting an ready for submissions.
+We made a server do it all for us.
+{{ except }}
+More on this later...

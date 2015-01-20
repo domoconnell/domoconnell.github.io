@@ -8,4 +8,6 @@ short_name: Node Printer
 description: cool project that allowed us to instantly print from iPads/iPhones to a label printer
 ---
 
-## Why?
+There is no decent, fast and cheap way to print labels from an iPad via our software instantly. We built one.
+{{ except }}
+More on this later...

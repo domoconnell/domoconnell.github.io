@@ -8,4 +8,6 @@ short_name: Church Software
 description: a large complex management system that helps churches organisae their stuff
 ---
 
-## Why?
+We built a system to help churches manage their stuff. It ended up being quite big, with lots and lots of parts.
+{{ except }}
+More on this later...
